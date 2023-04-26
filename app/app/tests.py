@@ -18,9 +18,8 @@ class CalcTests(SimpleTestCase):
 
         self.assertEqual(res, 12)
 
-
     def test_substract_numbers(self):
         """ test adding numbers """
-        res = calc.subtract(6,6)
+        res = calc.subtract(6, 6)
 
         self.assertEqual(res, 0)
